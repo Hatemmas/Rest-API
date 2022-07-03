@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+  background-color: #89b0ae;
+}
+
+.App {
+  text-align: center;
+}
+
+.userCard {
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px solid #555b6e;
+  width: 500px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  color: #3e4047;
+  text-shadow: 1px 10px 10px #555b6e4f ;
+}
+
+.btn {
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  background-color: #555b6e;
+  color: #89b0ae;
+  border: 0px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+}
+
+.userCard > p {
+  margin-bottom: 30px;
+}
+
+.addUser {
+  background-color: #555b6e;
+  height: 80px;
+}
+
+.addUser > button {
+  margin-top: 15px;
+  border: 0px solid black;
+  border-radius: 50%;
+  padding: 5px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #555b6e;
+  background-color: #89b0ae;
+  cursor: pointer;
+}
+
+.addUser > button:hover {
+  color: white;
+}
